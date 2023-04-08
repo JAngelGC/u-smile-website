@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/homePage/Header";
+import SectionInfo from "@/components/ui/SectionInfo";
 
 export default function Home() {
   return (
@@ -13,6 +14,21 @@ export default function Home() {
       </Head>
       <section>
         <Header />
+        <SectionInfo
+          textSide="left"
+          title="Sonríe con confianza"
+          text="En USmile nos especializamos en ofrecer tratamientos de ortodoncia modernos y de alta calidad a través de alineadores invisibles en un ambiente amigable y acogedor."
+        />
+        <SectionInfo
+          textSide="right"
+          title="Nuestro equipo"
+          text="Contamos con dentistas altamente capacitados y experimentados están comprometidos con la excelencia en el cuidado dental y la atención al paciente."
+        />
+        <SectionInfo
+          textSide="left"
+          title="Cada paciente"
+          text="Trabajamos juntos para desarrollar un plan de tratamiento personalizado que satisfaga sus objetivos de tu salud bucal"
+        />
       </section>
     </>
   );
