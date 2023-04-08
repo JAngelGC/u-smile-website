@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/homePage/Header";
+import SectionLogo from "@/components/ui/SectionLogo";
 import SectionInfo from "@/components/ui/SectionInfo";
 import Treatments from "@/components/homePage/Treatments";
 import CallToAction from "@/components/ui/CallToAction";
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <section>
         <Header />
+        <SectionLogo />
         <SectionInfo
           textSide="left"
           title="Sonríe con confianza"
