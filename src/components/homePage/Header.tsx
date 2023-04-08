@@ -7,7 +7,7 @@ const Header = () => {
       <p className={classes["title"]}>
         ¡Obtén la sonrisa perfecta que siempre has querido!
       </p>
-      <Button bgColor="green" />
+      <Button bgColor="green" classB={classes["btn"]} />
 
       {/* <Image src={"/img/Smile.png"} fill className={classes["myimg"]} alt="" /> */}
     </section>
