@@ -1,0 +1,21 @@
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.section-title h1 {
+  font-size: var(--fs-title);
+  color: var(--main-color);
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.section-title hr {
+  width: 20%;
+  height: 0.25rem;
+
+  border: none;
+  background-color: var(--main-color);
+}
