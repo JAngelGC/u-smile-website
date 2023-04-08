@@ -1,0 +1,80 @@
+.footer {
+  padding: 0 10rem;
+  height: 15vh;
+  display: flex;
+
+  font-size: var(--fs-small-text);
+
+  background-color: var(--white-color);
+  /* background-color: yellowgreen; */
+}
+
+.footer h4 {
+  font-size: var(--fs-mid-small-text);
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.box {
+  /* max-width: 20%; */
+  padding-top: 2rem;
+  margin: 0 2rem;
+}
+
+.box-logo {
+  width: 15%;
+  height: 70%;
+  position: relative;
+  margin: auto 0;
+
+  /* background-color: yellowgreen; */
+}
+
+.box-direction {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: yellow; */
+}
+
+.box-schedule {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: thistle; */
+}
+
+.box-social {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: violet; */
+}
+
+.box-social .box-icons {
+  padding-top: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-social .box-icons .icon {
+  cursor: pointer;
+  height: 3.6rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.box-social .box-icons .icon:hover {
+  fill: var(--main-color);
+}
+
+.box-social .box-icons .icon:last-child {
+  height: 3.3rem;
+}
+
+.box-privacy {
+  width: 20%;
+  /* background-color: springgreen; */
+}

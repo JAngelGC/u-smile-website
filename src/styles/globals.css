@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 
 /**************************/
 /* GENERAL */
@@ -9,7 +9,7 @@ html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   color: var(--black-color);
   line-height: 1.5;
 
@@ -26,7 +26,7 @@ html {
   --fs-small-text: 1.4rem;
   --fs-small-small-text: 1.2rem;
 
-  --white-color: #f3f3f3;
+  --white-color: #fafafa;
   --main-color: #1e8582;
   --black-color: #2d2d2d;
 
