@@ -1,0 +1,34 @@
+.box-btn {
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  font-size: var(--fs-big-text);
+  padding: 1.5rem 2.25rem;
+  border-radius: 1.4rem;
+  border: none;
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn--green {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+
+.btn--green:hover {
+  background-color: #21aba6;
+  color: var(--white-color);
+}
+
+.btn--white {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
+
+.btn--white:hover {
+  background-color: #21aba6;
+  color: var(--white-color);
+}

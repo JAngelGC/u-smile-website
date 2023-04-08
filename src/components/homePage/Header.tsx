@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Button from "../ui/Button";
 import classes from "./Header.module.css";
 
 const Header = () => {
@@ -7,6 +7,7 @@ const Header = () => {
       <p className={classes["title"]}>
         ¡Obtén la sonrisa perfecta que siempre has querido!
       </p>
+      <Button bgColor="green" />
 
       {/* <Image src={"/img/Smile.png"} fill className={classes["myimg"]} alt="" /> */}
     </section>
