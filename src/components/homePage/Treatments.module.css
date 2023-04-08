@@ -1,0 +1,91 @@
+.section-treatments {
+  padding: 10rem 10rem;
+  /* height: 85vh; */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-rows: repeat(12, 1fr); */
+}
+
+.box-title {
+  height: 12vh;
+  grid-column: 1 / -1;
+  /* grid-row: span 2; */
+  /* background-color: yellowgreen; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-title h2 {
+  font-size: var(--fs-title);
+  color: var(--main-color);
+}
+
+.box-icon {
+  /* border: 2px solid; */
+  /* background-color: yellowgreen; */
+}
+
+.icon-up {
+  height: 25vh;
+  grid-column: span 3;
+  /* grid-row: span 5; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* background-color: violet; */
+}
+
+.icon-down {
+  height: 25vh;
+  grid-column: span 2;
+  /* grid-row: span 5; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* background-color: wheat; */
+}
+
+.icon-alineacion {
+  align-items: flex-end;
+  /* padding-right: 10rem; */
+}
+
+.icon-reconstruccion {
+  align-items: flex-start;
+  /* padding-left: 10rem; */
+}
+
+.icon-implantes {
+  align-items: flex-end;
+  /* padding-right: 10rem; */
+}
+
+.icon-estetica {
+  align-items: flex-start;
+  /* padding-left: 10rem; */
+}
+
+.box-icon .box-img-icon {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* background-color: yellowgreen; */
+}
+
+.title-treatment {
+  font-size: var(--fs-mid-text);
+  text-align: center;
+  width: 50%;
+
+  /* background-color: yellow; */
+  /* border: 2px solid; */
+}

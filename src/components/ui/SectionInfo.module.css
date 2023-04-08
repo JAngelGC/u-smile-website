@@ -1,0 +1,37 @@
+.section-info {
+  height: 75vh;
+
+  display: flex;
+}
+
+.section-info.leftText {
+  flex-direction: row-reverse;
+}
+
+.section-info.rightText {
+  flex-direction: row;
+}
+
+.box-img {
+  width: 50%;
+  position: relative;
+}
+
+.box-text {
+  width: 50%;
+  padding: 5% 5%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.box-text h2 {
+  font-size: var(--fs-title);
+  color: var(--main-color);
+}
+
+.box-text p {
+  font-size: var(--fs-mid-text);
+}
