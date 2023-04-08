@@ -7,7 +7,7 @@ const SectionInfo: React.FC<{
   text: string;
 }> = (props) => {
   const classOrientation: string =
-    props.textSide === "left" ? "leftText" : "rightSide";
+    props.textSide === "left" ? "leftText" : "rightText";
 
   return (
     <section

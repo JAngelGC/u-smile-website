@@ -2,6 +2,8 @@ import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/homePage/Header";
 import SectionInfo from "@/components/ui/SectionInfo";
+import Treatments from "@/components/homePage/Treatments";
+import CallToAction from "@/components/ui/CallToAction";
 
 export default function Home() {
   return (
@@ -28,6 +30,13 @@ export default function Home() {
           textSide="left"
           title="Cada paciente"
           text="Trabajamos juntos para desarrollar un plan de tratamiento personalizado que satisfaga sus objetivos de tu salud bucal"
+        />
+
+        <Treatments />
+
+        <CallToAction
+          bgColor="green"
+          text="Comienza tu viaje hacia una sonrisa hermosa y saludable"
         />
       </section>
     </>
