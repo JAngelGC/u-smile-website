@@ -7,12 +7,9 @@ import { useState } from "react";
 
 const MainNavigation = () => {
   const router = useRouter();
-  console.log(router.route);
 
   const linkSelected = (path: string): boolean => {
-    console.log("PAth ", path);
     if (router.route.includes(path)) {
-      console.log("TRUEEEE");
       return true;
     } else {
       return false;
