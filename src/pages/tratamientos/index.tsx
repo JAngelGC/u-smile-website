@@ -1,6 +1,7 @@
 import SectionTitle from "@/components/ui/SectionTitle";
 import TreatmentsIntro from "@/components/treatmentsPage/TreatmentsIntro";
 import TreatmentsAccordion from "@/components/treatmentsPage/TreatmentsAccordion";
+import CallToAction from "@/components/ui/CallToAction";
 
 const TreatmentsPage = () => {
   return (
@@ -8,6 +9,10 @@ const TreatmentsPage = () => {
       <SectionTitle title="Tratamientos" />
       <TreatmentsIntro />
       <TreatmentsAccordion />
+      <CallToAction
+        bgColor="green"
+        text="Estamos ansiosos por ayudarte a lograr una sonrisa saludable y hermosa"
+      />
     </>
   );
 };
