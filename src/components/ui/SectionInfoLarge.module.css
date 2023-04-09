@@ -9,6 +9,12 @@
   justify-content: center;
 }
 
+.section-info h2 {
+  padding-bottom: 1rem;
+  color: var(--main-color);
+  font-size: var(--fs-title);
+}
+
 .section-info .box-img {
   position: relative;
   height: 85%;
