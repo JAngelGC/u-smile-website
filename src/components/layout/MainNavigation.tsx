@@ -36,8 +36,8 @@ const MainNavigation = () => {
           <li className={linkSelected("/quienes-somos") ? classes.active : ""}>
             <Link href="/quienes-somos">Quiénes somos</Link>
           </li>
-          <li>
-            <Link href="#">Tratamientos</Link>
+          <li className={linkSelected("/tratamientos") ? classes.active : ""}>
+            <Link href="/tratamientos">Tratamientos</Link>
           </li>
           <li>
             <Link href="#">Invisalign</Link>
