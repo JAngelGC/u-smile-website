@@ -19,7 +19,7 @@ const MainNavigation = () => {
   return (
     <header className={classes["header"]}>
       <div className={classes["box-img-logo"]}>
-        <Link href="#">
+        <Link href="/">
           <Image
             src={"/img/Usmile-logo.png"}
             fill
@@ -30,8 +30,8 @@ const MainNavigation = () => {
       </div>
       <nav className={classes["navbar"]}>
         <ul className={classes["menu"]}>
-          <li className={linkSelected("/quienes") ? classes.active : ""}>
-            <Link href="#">Quiénes somos</Link>
+          <li className={linkSelected("/quienes-somos") ? classes.active : ""}>
+            <Link href="/quienes-somos">Quiénes somos</Link>
           </li>
           <li className={linkSelected("/tratamientos") ? classes.active : ""}>
             <Link href="#">Tratamientos</Link>
