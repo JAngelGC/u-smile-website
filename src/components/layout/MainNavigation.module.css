@@ -16,11 +16,6 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.active {
-  font-weight: 700;
-  color: var(--main-color);
-}
-
 .box-img-logo {
   width: 30%;
   height: 100%;
@@ -56,6 +51,11 @@
 .menu li {
   font-size: var(--fs-mid-small-text);
   text-decoration: none;
+}
+
+.menu .active a {
+  font-weight: 700;
+  color: var(--main-color);
 }
 
 .menu li a {

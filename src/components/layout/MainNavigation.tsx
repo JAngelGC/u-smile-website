@@ -7,9 +7,12 @@ import { useState } from "react";
 
 const MainNavigation = () => {
   const router = useRouter();
+  console.log(router.route);
 
   const linkSelected = (path: string): boolean => {
+    console.log("PAth ", path);
     if (router.route.includes(path)) {
+      console.log("TRUEEEE");
       return true;
     } else {
       return false;
@@ -33,7 +36,7 @@ const MainNavigation = () => {
           <li className={linkSelected("/quienes-somos") ? classes.active : ""}>
             <Link href="/quienes-somos">Quiénes somos</Link>
           </li>
-          <li className={linkSelected("/tratamientos") ? classes.active : ""}>
+          <li>
             <Link href="#">Tratamientos</Link>
           </li>
           <li>
