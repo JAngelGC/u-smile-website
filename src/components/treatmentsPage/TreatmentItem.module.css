@@ -1,0 +1,35 @@
+.box-content {
+  display: none;
+  padding: 2rem 0;
+}
+
+.box-content.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* background-color: yellowgreen; */
+}
+
+.box-content .box-img {
+  position: relative;
+  height: 400px;
+  width: 70%;
+}
+
+.box-content .box-text {
+  padding: 1rem 0;
+  width: 70%;
+  /* background-color: yellowgreen; */
+}
+
+.box-content .box-text h3 {
+  font-size: var(--fs-mid-text);
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.box-content .box-text p {
+  font-size: var(--fs-mid-text);
+}
