@@ -3,6 +3,7 @@ import Head from "next/head";
 import SectionTitle from "@/components/ui/SectionTitle";
 import FaqAccordion from "@/components/faqPage/FaqAccordion";
 import AdvantagesAccordion from "@/components/faqPage/AdvantagesAccordion";
+import CallToAction from "@/components/ui/CallToAction";
 
 const FaqPage = () => {
   return (
@@ -16,6 +17,10 @@ const FaqPage = () => {
       <SectionTitle title="Preguntas frecuentes" />
       <FaqAccordion />
       <AdvantagesAccordion />
+      <CallToAction
+        bgColor="green"
+        text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"
+      />
     </>
   );
 };
