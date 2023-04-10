@@ -1,6 +1,7 @@
 import SectionTitle from "@/components/ui/SectionTitle";
 import SectionInfoLarge from "@/components/ui/SectionInfoLarge";
 import SectionInfo from "@/components/ui/SectionInfo";
+import CallToAction from "@/components/ui/CallToAction";
 
 const InvisalignPage = () => {
   return (
@@ -24,6 +25,10 @@ const InvisalignPage = () => {
         textSide="right"
         title="Apariencia"
         text="Debido a que los alineadores son transparentes, los pacientes pueden continuar con su vida diaria sin tener que preocuparse por la apariencia de sus brackets y alambres."
+      />
+      <CallToAction
+        bgColor="white"
+        text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"
       />
     </>
   );
