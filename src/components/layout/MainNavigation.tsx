@@ -45,8 +45,8 @@ const MainNavigation = () => {
           >
             <Link href="/preguntas-frecuentes">Preguntas frecuentes</Link>
           </li>
-          <li>
-            <Link href="#">Contacto</Link>
+          <li className={linkSelected("/contacto") ? classes.active : ""}>
+            <Link href="/contacto">Contacto</Link>
           </li>
         </ul>
       </nav>
