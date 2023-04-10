@@ -1,0 +1,20 @@
+.accordion {
+  min-height: 50vh;
+  /* background-color: yellowgreen; */
+  width: 50%;
+  margin: 0 auto;
+}
+
+.box-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellowgreen; */
+}
+
+.box-title h2 {
+  font-size: var(--fs-title);
+  color: var(--main-color);
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}

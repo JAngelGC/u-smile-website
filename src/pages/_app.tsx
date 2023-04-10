@@ -1,3 +1,5 @@
+import { ChakraProvider } from "@chakra-ui/react";
+
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 
@@ -14,9 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
           font-family: ${montserrat.style.fontFamily};
         }
       `}</style>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <ChakraProvider>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ChakraProvider>
     </>
   );
 }

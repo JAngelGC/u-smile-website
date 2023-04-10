@@ -1,0 +1,12 @@
+.accordion-item {
+  margin-bottom: 2rem;
+}
+
+.accordion-item .title-question {
+  font-size: var(--fs-mid-text);
+  padding: 0.5rem 0;
+}
+
+.accordion-item .text-question {
+  font-size: var(--fs-mid-text);
+}
