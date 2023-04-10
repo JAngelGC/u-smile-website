@@ -3,7 +3,6 @@ import Image from "next/image";
 import classes from "./MainNavigation.module.css";
 
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 const MainNavigation = () => {
   const router = useRouter();
@@ -39,8 +38,12 @@ const MainNavigation = () => {
           <li className={linkSelected("/invisalign") ? classes.active : ""}>
             <Link href="/invisalign">Invisalign</Link>
           </li>
-          <li>
-            <Link href="#">Preguntas frecuentes</Link>
+          <li
+            className={
+              linkSelected("/preguntas-frecuentes") ? classes.active : ""
+            }
+          >
+            <Link href="/preguntas-frecuentes">Preguntas frecuentes</Link>
           </li>
           <li>
             <Link href="#">Contacto</Link>
