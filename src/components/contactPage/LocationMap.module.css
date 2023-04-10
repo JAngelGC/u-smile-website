@@ -1,0 +1,17 @@
+.section-map {
+  width: 100%;
+  height: 70vh;
+}
+
+.section-map .title {
+  font-size: var(--fs-subtitle);
+  color: var(--main-color);
+  font-weight: 600;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.section-map .map {
+  width: 100%;
+  height: 90%;
+}
