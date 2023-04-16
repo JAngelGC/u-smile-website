@@ -19,19 +19,22 @@ export default function Home() {
         <Header />
         <SectionLogo />
         <SectionInfo
-          textSide="left"
+          textSide="right"
           title="Sonríe con confianza"
           text="En USmile nos especializamos en ofrecer tratamientos de ortodoncia modernos y de alta calidad a través de alineadores invisibles en un ambiente amigable y acogedor."
+          imagePath="/img/Usmile-fotografia-1.png"
+        />
+        <SectionInfo
+          textSide="left"
+          title="Nuestro equipo"
+          text="Contamos con dentistas altamente capacitados y experimentados están comprometidos con la excelencia en el cuidado dental y la atención al paciente."
+          imagePath="/img/Usmile-fotografia-2.png"
         />
         <SectionInfo
           textSide="right"
-          title="Nuestro equipo"
-          text="Contamos con dentistas altamente capacitados y experimentados están comprometidos con la excelencia en el cuidado dental y la atención al paciente."
-        />
-        <SectionInfo
-          textSide="left"
           title="Cada paciente"
           text="Trabajamos juntos para desarrollar un plan de tratamiento personalizado que satisfaga sus objetivos de tu salud bucal"
+          imagePath="/img/Usmile-fotografia-3.png"
         />
 
         <Treatments />
@@ -39,6 +42,7 @@ export default function Home() {
         <CallToAction
           bgColor="green"
           text="Comienza tu viaje hacia una sonrisa hermosa y saludable"
+          imagePath="/img/Usmile-fotografia-4.png"
         />
       </section>
     </>

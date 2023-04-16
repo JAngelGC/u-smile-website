@@ -1,0 +1,16 @@
+.section-treatments-intro {
+  /* padding: 2rem 0; */
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: aqua; */
+}
+
+.section-treatments-intro p {
+  font-size: var(--fs-mid-text);
+  width: 50%;
+  text-align: center;
+}

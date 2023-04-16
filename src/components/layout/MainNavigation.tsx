@@ -3,7 +3,6 @@ import Image from "next/image";
 import classes from "./MainNavigation.module.css";
 
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 const MainNavigation = () => {
   const router = useRouter();
@@ -19,7 +18,7 @@ const MainNavigation = () => {
   return (
     <header className={classes["header"]}>
       <div className={classes["box-img-logo"]}>
-        <Link href="#">
+        <Link href="/">
           <Image
             src={"/img/Usmile-logo.png"}
             fill
@@ -30,20 +29,24 @@ const MainNavigation = () => {
       </div>
       <nav className={classes["navbar"]}>
         <ul className={classes["menu"]}>
-          <li className={linkSelected("/quienes") ? classes.active : ""}>
-            <Link href="#">Quiénes somos</Link>
+          <li className={linkSelected("/quienes-somos") ? classes.active : ""}>
+            <Link href="/quienes-somos">Quiénes somos</Link>
           </li>
           <li className={linkSelected("/tratamientos") ? classes.active : ""}>
-            <Link href="#">Tratamientos</Link>
+            <Link href="/tratamientos">Tratamientos</Link>
           </li>
-          <li>
-            <Link href="#">Invisalign</Link>
+          <li className={linkSelected("/invisalign") ? classes.active : ""}>
+            <Link href="/invisalign">Invisalign</Link>
           </li>
-          <li>
-            <Link href="#">Preguntas frecuentes</Link>
+          <li
+            className={
+              linkSelected("/preguntas-frecuentes") ? classes.active : ""
+            }
+          >
+            <Link href="/preguntas-frecuentes">Preguntas frecuentes</Link>
           </li>
-          <li>
-            <Link href="#">Contacto</Link>
+          <li className={linkSelected("/contacto") ? classes.active : ""}>
+            <Link href="/contacto">Contacto</Link>
           </li>
         </ul>
       </nav>

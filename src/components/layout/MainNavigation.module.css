@@ -3,11 +3,17 @@
   height: 10vh;
 
   display: flex;
-}
+  /* 
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 100%; */
+  position: sticky;
+  z-index: 100;
+  top: 0;
 
-.active {
-  font-weight: 700;
-  color: var(--main-color);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .box-img-logo {
@@ -45,6 +51,11 @@
 .menu li {
   font-size: var(--fs-mid-small-text);
   text-decoration: none;
+}
+
+.menu .active a {
+  font-weight: 700;
+  color: var(--main-color);
 }
 
 .menu li a {

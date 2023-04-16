@@ -1,12 +1,23 @@
 .section-logo {
+  padding: 7.5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  /* background-color: yellowgreen; */
 }
 
 .box-img {
   position: relative;
   height: 150px;
   width: 50%;
+}
+
+.text {
+  padding-top: 1rem;
+  font-size: var(--fs-mid-text);
+  width: 60%;
+
+  text-align: center;
 }

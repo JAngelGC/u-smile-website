@@ -17,7 +17,8 @@ html {
 }
 
 :root {
-  --fs-title: 3rem;
+  --fs-big-title: 4rem;
+  --fs-title: 3.2rem;
   --fs-subtitle: 2.4rem;
 
   --fs-big-text: 2rem;

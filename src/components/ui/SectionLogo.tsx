@@ -12,7 +12,7 @@ const SectionLogo: React.FC<{ text?: string }> = (props) => {
           alt=""
         />
       </div>
-      <p>{props.text}</p>
+      <p className={classes["text"]}>{props.text}</p>
     </section>
   );
 };
