@@ -12,6 +12,7 @@ const TreatmentsPage = () => {
       <CallToAction
         bgColor="green"
         text="Estamos ansiosos por ayudarte a lograr una sonrisa saludable y hermosa"
+        imagePath="/img/Usmile-fotografia-7.jpg"
       />
     </>
   );
