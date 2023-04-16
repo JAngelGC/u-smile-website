@@ -2,7 +2,8 @@
   height: 75vh;
   /* min-height: 500px; */
   /* max-width: 1200px; */
-  margin: 7.5rem auto;
+  margin: 0 auto;
+  margin-bottom: 7.5rem;
 
   display: flex;
 }
@@ -38,4 +39,5 @@
 
 .box-text p {
   font-size: var(--fs-mid-text);
+  color: var(--black-color);
 }

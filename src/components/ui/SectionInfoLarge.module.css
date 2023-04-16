@@ -1,7 +1,8 @@
 .section-info {
-  height: 70vh;
+  height: 65vh;
   width: 70%;
   margin: 2.5rem auto;
+  margin-bottom: 5rem;
 
   display: flex;
   flex-direction: column;
@@ -22,7 +23,8 @@
 }
 
 .section-info p {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: var(--fs-mid-text);
+  color: var(--black-color);
   text-align: center;
 }
