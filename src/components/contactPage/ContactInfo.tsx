@@ -6,7 +6,7 @@ const ContactInfo: React.FC<{}> = () => {
     <section className={classes["section-info"]}>
       <div className={classes["box-img"]}>
         <Image
-          src={"/img/Kid-smiling.png"}
+          src={"/img/Usmile-fotografia-14.jpg"}
           fill
           style={{ objectFit: "cover" }}
           alt=""

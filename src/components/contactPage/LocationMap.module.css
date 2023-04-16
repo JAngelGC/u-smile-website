@@ -1,13 +1,16 @@
 .section-map {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  /* background-color: yellowgreen; */
 }
 
 .section-map .title {
-  font-size: var(--fs-subtitle);
+  font-size: var(--fs-title);
   color: var(--main-color);
   font-weight: 600;
-  padding: 2rem 0;
+  padding-bottom: 3rem;
   text-align: center;
 }
 
