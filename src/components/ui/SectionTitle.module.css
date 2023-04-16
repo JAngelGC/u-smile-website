@@ -6,7 +6,9 @@
 }
 
 .section-title h1 {
-  font-size: var(--fs-title);
+  font-size: var(--fs-big-title);
+  font-weight: 600;
+
   color: var(--main-color);
   text-align: center;
   padding-bottom: 0.5rem;

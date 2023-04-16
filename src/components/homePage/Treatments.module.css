@@ -1,9 +1,12 @@
 .section-treatments {
-  padding: 10rem 10rem;
+  /* padding: 10rem 10rem; */
+  padding: 5rem 0;
   /* height: 85vh; */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   /* grid-template-rows: repeat(12, 1fr); */
+
+  background-color: var(--white-color);
 }
 
 .box-title {
@@ -19,6 +22,7 @@
 
 .box-title h2 {
   font-size: var(--fs-title);
+  font-weight: 500;
   color: var(--main-color);
 }
 
@@ -37,6 +41,7 @@
   align-items: center;
   flex-direction: column;
 
+  margin-bottom: 5rem;
   /* background-color: violet; */
 }
 
@@ -82,6 +87,7 @@
 }
 
 .title-treatment {
+  padding-top: 0.5rem;
   font-size: var(--fs-mid-text);
   text-align: center;
   width: 50%;

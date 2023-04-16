@@ -5,6 +5,7 @@ const SectionInfo: React.FC<{
   textSide: string;
   title: string;
   text: string;
+  imagePath: string;
 }> = (props) => {
   const classOrientation: string =
     props.textSide === "left" ? "leftText" : "rightText";
@@ -15,7 +16,7 @@ const SectionInfo: React.FC<{
     >
       <div className={classes["box-img"]}>
         <Image
-          src={"/img/Kid-smiling.png"}
+          src={props.imagePath}
           fill
           style={{ objectFit: "cover" }}
           alt=""

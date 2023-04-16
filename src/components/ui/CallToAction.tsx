@@ -2,7 +2,11 @@ import Image from "next/image";
 import Button from "./Button";
 import classes from "./CallToAction.module.css";
 
-const CallToAction: React.FC<{ text: String; bgColor: string }> = (props) => {
+const CallToAction: React.FC<{
+  text: String;
+  bgColor: string;
+  imagePath: string;
+}> = (props) => {
   const bgClass: string =
     props.bgColor === "green" ? "box-text--green" : "box-text--white";
 
@@ -15,7 +19,7 @@ const CallToAction: React.FC<{ text: String; bgColor: string }> = (props) => {
 
       <div className={classes["box-img"]}>
         <Image
-          src={"/img/Kid-smiling.png"}
+          src={props.imagePath}
           fill
           style={{ objectFit: "cover" }}
           alt=""
