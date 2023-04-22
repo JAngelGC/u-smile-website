@@ -54,6 +54,7 @@
 .menu li {
   font-size: var(--fs-mid-text);
   text-decoration: none;
+
   /* background-color: yellowgreen; */
 }
 
@@ -129,15 +130,15 @@
 /* BELOW 1344px /smaller desktops */
 /**************************/
 @media (max-width: 84em) {
+  .menu li {
+    font-size: var(--fs-mid-small-text);
+  }
 }
 
 /**************************/
 /* BELOW 1200px /landscape tablets */
 /**************************/
 @media (max-width: 75em) {
-  .menu li {
-    font-size: var(--fs-mid-small-text);
-  }
 }
 
 /**************************/

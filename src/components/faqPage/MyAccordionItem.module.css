@@ -4,6 +4,7 @@
 
 .accordion-item .title-question {
   font-size: var(--fs-mid-text);
+  font-weight: 500;
   padding: 0.5rem 0;
 }
 
