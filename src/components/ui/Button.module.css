@@ -32,3 +32,48 @@
   background-color: #21aba6;
   color: var(--white-color);
 }
+
+/**************************/
+/* BELOW 1344px /smaller desktops */
+/**************************/
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px /landscape tablets */
+/**************************/
+@media (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 940px /  tablets */
+/**************************/
+@media (max-width: 59em) {
+}
+
+/**************************/
+/* BELOW 700px /  smaller tablets */
+/**************************/
+@media (max-width: 44em) {
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .btn {
+    font-size: var(--fs-big-text);
+    padding: 1rem 2rem;
+    border-radius: 1.4rem;
+    border: none;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+/**************************/
+/* BELOW 375px /  phones */
+/**************************/
+@media (max-width: 23em) {
+}
