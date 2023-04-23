@@ -1,5 +1,5 @@
 .accordion {
-  min-height: 50vh;
+  min-height: 40vh;
   /* background-color: yellowgreen; */
   width: 50%;
   margin: 0 auto;
@@ -9,12 +9,57 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
   /* background-color: yellowgreen; */
 }
 
 .box-title h2 {
   font-size: var(--fs-title);
   color: var(--main-color);
+  font-weight: 500;
   padding-top: 2rem;
   padding-bottom: 4rem;
+}
+
+/**************************/
+/* BELOW 1344px /smaller desktops */
+/**************************/
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px /landscape tablets */
+/**************************/
+@media (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 940px /  tablets */
+/**************************/
+@media (max-width: 59em) {
+  .accordion {
+    width: 80%;
+  }
+}
+
+/**************************/
+/* BELOW 700px /  smaller tablets */
+/**************************/
+@media (max-width: 44em) {
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .accordion {
+    width: 85%;
+  }
+}
+
+/**************************/
+/* BELOW 375px /  phones */
+/**************************/
+@media (max-width: 23em) {
 }

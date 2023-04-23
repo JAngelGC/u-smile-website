@@ -41,3 +41,60 @@
   font-size: var(--fs-mid-text);
   color: var(--black-color);
 }
+
+/**************************/
+/* BELOW 1344px /smaller desktops */
+/**************************/
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px /landscape tablets */
+/**************************/
+@media (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 940px /  tablets */
+/**************************/
+@media (max-width: 59em) {
+}
+
+/**************************/
+/* BELOW 700px /  smaller tablets */
+/**************************/
+@media (max-width: 44em) {
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .section-info {
+    height: 60vh;
+    /* background-color: yellow; */
+
+    margin-bottom: 5rem;
+  }
+
+  .section-info.leftText,
+  .section-info.rightText {
+    flex-direction: column;
+  }
+
+  .box-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .box-text {
+    padding: 1rem 3rem;
+    width: 100%;
+  }
+}
+
+/**************************/
+/* BELOW 375px /  phones */
+/**************************/
+@media (max-width: 23em) {
+}
