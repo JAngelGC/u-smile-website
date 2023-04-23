@@ -11,7 +11,8 @@
 .box-img {
   position: relative;
   height: 150px;
-  width: 50%;
+  width: 300px;
+  /* background-color: yellowgreen; */
 }
 
 .text {
@@ -20,4 +21,47 @@
   width: 60%;
 
   text-align: center;
+}
+
+/**************************/
+/* BELOW 1344px /smaller desktops */
+/**************************/
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px /landscape tablets */
+/**************************/
+@media (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 940px /  tablets */
+/**************************/
+@media (max-width: 59em) {
+}
+
+/**************************/
+/* BELOW 700px /  smaller tablets */
+/**************************/
+@media (max-width: 44em) {
+  .text {
+    width: 80%;
+  }
+}
+
+/**************************/
+/* BELOW 544px /  phones */
+/**************************/
+@media (max-width: 34em) {
+  .box-img {
+    height: 100px;
+    width: 250px;
+  }
+}
+
+/**************************/
+/* BELOW 375px /  phones */
+/**************************/
+@media (max-width: 23em) {
 }
