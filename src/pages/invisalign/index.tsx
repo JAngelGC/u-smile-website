@@ -1,3 +1,4 @@
+import Head from "next/head";
 import SectionTitle from "@/components/ui/SectionTitle";
 import SectionInfoLarge from "@/components/ui/SectionInfoLarge";
 import SectionInfo from "@/components/ui/SectionInfo";
@@ -6,6 +7,43 @@ import CallToAction from "@/components/ui/CallToAction";
 const InvisalignPage = () => {
   return (
     <>
+      <Head>
+        <title>USmile</title>
+        <meta
+          name="description"
+          content="U Smile, uno de los tratamientos más populares en nuestra clínica es el sistema Invisalign, que ofrece una alternativa discreta y cómoda a los brackets y alambres tradicionales."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="keywords"
+          content="USmile, U Smile, u smile, usmile, clinica dental, clinica, Puebla, dentista Puebla, Invisalign, invisalign, personalizacion, ortodoncistas capacitados, comodidad del paciente"
+        />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/icons/ico/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/icons/ico/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/icons/ico/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/icons/ico/site.webmanifest" />
+        <link
+          rel="mask-icon"
+          href="/icons/ico/safari-pinned-tab.svg"
+          color="#5bbad5"
+        />
+      </Head>
+
       <SectionTitle title="Invisalign" />
       <SectionInfoLarge
         title="La mejor tecnología en Puebla"
