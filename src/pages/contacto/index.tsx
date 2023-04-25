@@ -51,6 +51,7 @@ const ContactPage = () => {
         bgColor="white"
         text="¡Estamos ansiosos de verte en nuestra clínica!"
         imagePath="/img/Usmile-fotografia-15.jpg"
+        imageBlurPath="/img/blur/Usmile-fotografia-15.png"
       />
     </>
   );

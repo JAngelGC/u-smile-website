@@ -6,6 +6,7 @@ const CallToAction: React.FC<{
   text: String;
   bgColor: string;
   imagePath: string;
+  imageBlurPath?: string;
 }> = (props) => {
   const bgClass: string =
     props.bgColor === "green" ? "box-text--green" : "box-text--white";
@@ -23,6 +24,8 @@ const CallToAction: React.FC<{
           fill
           style={{ objectFit: "cover" }}
           alt=""
+          blurDataURL={props.imageBlurPath}
+          placeholder="blur"
         />
       </div>
     </section>

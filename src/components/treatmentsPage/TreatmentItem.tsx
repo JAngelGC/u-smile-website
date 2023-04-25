@@ -5,6 +5,8 @@ const TreatmentItem: React.FC<{
   isActive: boolean;
   title: string;
   text: string;
+  imagePath?: string;
+  imageBlurPath?: string;
 }> = (props) => {
   return (
     <div
@@ -18,6 +20,8 @@ const TreatmentItem: React.FC<{
           fill
           style={{ objectFit: "cover" }}
           alt=""
+          blurDataURL={"/img/Kid-smiling.png"}
+          placeholder="blur"
         />
       </div>
       <div className={classes["box-text"]}>

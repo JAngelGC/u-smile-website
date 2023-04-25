@@ -6,6 +6,7 @@ const SectionInfo: React.FC<{
   title: string;
   text: string;
   imagePath: string;
+  imageBlurPath?: string;
 }> = (props) => {
   const classOrientation: string =
     props.textSide === "left" ? "leftText" : "rightText";
@@ -20,6 +21,8 @@ const SectionInfo: React.FC<{
           fill
           style={{ objectFit: "cover" }}
           alt=""
+          blurDataURL={props.imageBlurPath}
+          placeholder="blur"
         />
       </div>
 

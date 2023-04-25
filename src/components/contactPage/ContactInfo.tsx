@@ -10,6 +10,8 @@ const ContactInfo: React.FC<{}> = () => {
           fill
           style={{ objectFit: "cover" }}
           alt=""
+          blurDataURL="/img/blur/Usmile-fotografia-14.jpg"
+          placeholder="blur"
         />
       </div>
 
