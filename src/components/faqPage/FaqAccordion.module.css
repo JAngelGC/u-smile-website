@@ -3,6 +3,7 @@
   /* background-color: yellowgreen; */
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .box-title {
@@ -18,8 +19,8 @@
   font-size: var(--fs-title);
   color: var(--main-color);
   font-weight: 500;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+
+  margin-bottom: 2rem;
 }
 
 /**************************/

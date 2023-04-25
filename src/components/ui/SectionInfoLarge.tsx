@@ -5,6 +5,7 @@ const SectionInfoLarge: React.FC<{
   title?: string;
   text: string;
   imagePath: string;
+  imageBlurPath?: string;
 }> = (props) => {
   return (
     <section className={classes["section-info"]}>
@@ -15,6 +16,8 @@ const SectionInfoLarge: React.FC<{
           fill
           style={{ objectFit: "cover" }}
           alt=""
+          blurDataURL={props.imageBlurPath}
+          placeholder="blur"
         />
       </div>
       <p>{props.text}</p>
