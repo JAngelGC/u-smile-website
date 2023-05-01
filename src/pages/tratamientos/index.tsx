@@ -4,6 +4,8 @@ import TreatmentsIntro from "@/components/treatmentsPage/TreatmentsIntro";
 import TreatmentsAccordion from "@/components/treatmentsPage/TreatmentsAccordion";
 import CallToAction from "@/components/ui/CallToAction";
 
+import img7 from "../../../public/img/blur/Usmile-fotografia-7.jpg";
+
 const TreatmentsPage = () => {
   return (
     <>
@@ -50,7 +52,7 @@ const TreatmentsPage = () => {
         bgColor="green"
         text="Estamos ansiosos por ayudarte a lograr una sonrisa saludable y hermosa"
         imagePath="/img/Usmile-fotografia-7.jpg"
-        imageBlurPath="/img/blur/Usmile-fotografia-7.png"
+        imageBlurPath={img7}
       />
     </>
   );

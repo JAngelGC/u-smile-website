@@ -6,6 +6,11 @@ import SectionInfo from "@/components/ui/SectionInfo";
 import Treatments from "@/components/homePage/Treatments";
 import CallToAction from "@/components/ui/CallToAction";
 
+import img1 from "../../public/img/blur/Usmile-fotografia-1.png";
+import img2 from "../../public/img/blur/Usmile-fotografia-2.png";
+import img3 from "../../public/img/blur/Usmile-fotografia-3.png";
+import img4 from "../../public/img/blur/Usmile-fotografia-4.png";
+
 export default function Home() {
   return (
     <>
@@ -54,21 +59,21 @@ export default function Home() {
           title="Sonríe con confianza"
           text="En USmile nos especializamos en ofrecer tratamientos de ortodoncia modernos y de alta calidad a través de alineadores invisibles en un ambiente amigable y acogedor."
           imagePath="/img/Usmile-fotografia-1.png"
-          imageBlurPath="/img/blur/Usmile-fotografia-1.png"
+          imageBlurPath={img1}
         />
         <SectionInfo
           textSide="left"
           title="Nuestro equipo"
           text="Contamos con dentistas altamente capacitados y experimentados están comprometidos con la excelencia en el cuidado dental y la atención al paciente."
           imagePath="/img/Usmile-fotografia-2.png"
-          imageBlurPath="/img/blur/Usmile-fotografia-2.png"
+          imageBlurPath={img2}
         />
         <SectionInfo
           textSide="right"
           title="Cada paciente"
           text="Trabajamos juntos para desarrollar un plan de tratamiento personalizado que satisfaga sus objetivos de tu salud bucal"
           imagePath="/img/Usmile-fotografia-3.png"
-          imageBlurPath="/img/blur/Usmile-fotografia-3.png"
+          imageBlurPath={img3}
         />
 
         <Treatments />
@@ -77,7 +82,7 @@ export default function Home() {
           bgColor="green"
           text="Comienza tu viaje hacia una sonrisa hermosa y saludable"
           imagePath="/img/Usmile-fotografia-4.png"
-          imageBlurPath="/img/blur/Usmile-fotografia-4.png"
+          imageBlurPath={img4}
         />
       </section>
     </>

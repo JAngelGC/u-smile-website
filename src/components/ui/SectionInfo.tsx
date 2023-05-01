@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { StaticImageData } from "next/image";
+
 import classes from "./SectionInfo.module.css";
 
 const SectionInfo: React.FC<{
@@ -6,7 +8,7 @@ const SectionInfo: React.FC<{
   title: string;
   text: string;
   imagePath: string;
-  imageBlurPath?: string;
+  imageBlurPath: StaticImageData;
 }> = (props) => {
   const classOrientation: string =
     props.textSide === "left" ? "leftText" : "rightText";
@@ -21,7 +23,7 @@ const SectionInfo: React.FC<{
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL={props.imageBlurPath}
+          blurDataURL={props.imageBlurPath.src}
           placeholder="blur"
         />
       </div>

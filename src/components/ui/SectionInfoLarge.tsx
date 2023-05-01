@@ -1,11 +1,12 @@
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 import classes from "./SectionInfoLarge.module.css";
 
 const SectionInfoLarge: React.FC<{
   title?: string;
   text: string;
   imagePath: string;
-  imageBlurPath?: string;
+  imageBlurPath: StaticImageData;
 }> = (props) => {
   return (
     <section className={classes["section-info"]}>
@@ -16,7 +17,7 @@ const SectionInfoLarge: React.FC<{
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL={props.imageBlurPath}
+          blurDataURL={props.imageBlurPath.src}
           placeholder="blur"
         />
       </div>

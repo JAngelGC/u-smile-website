@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 import Button from "./Button";
 import classes from "./CallToAction.module.css";
 
@@ -6,7 +7,7 @@ const CallToAction: React.FC<{
   text: String;
   bgColor: string;
   imagePath: string;
-  imageBlurPath?: string;
+  imageBlurPath: StaticImageData;
 }> = (props) => {
   const bgClass: string =
     props.bgColor === "green" ? "box-text--green" : "box-text--white";
@@ -24,7 +25,7 @@ const CallToAction: React.FC<{
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL={props.imageBlurPath}
+          blurDataURL={props.imageBlurPath.src}
           placeholder="blur"
         />
       </div>

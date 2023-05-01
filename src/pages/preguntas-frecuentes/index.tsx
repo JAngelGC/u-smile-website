@@ -5,6 +5,8 @@ import FaqAccordion from "@/components/faqPage/FaqAccordion";
 import AdvantagesAccordion from "@/components/faqPage/AdvantagesAccordion";
 import CallToAction from "@/components/ui/CallToAction";
 
+import img13 from "../../../public/img/blur/Usmile-fotografia-13.jpg";
+
 const FaqPage = () => {
   return (
     <>
@@ -52,7 +54,7 @@ const FaqPage = () => {
         bgColor="green"
         text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"
         imagePath="/img/Usmile-fotografia-13.jpg"
-        imageBlurPath="/img/blur/Usmile-fotografia-13.png"
+        imageBlurPath={img13}
       />
     </>
   );

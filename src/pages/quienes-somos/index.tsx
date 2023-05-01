@@ -5,6 +5,9 @@ import SectionAdvantages from "@/components/aboutPage/SectionAdvantages";
 import SectionLogo from "@/components/ui/SectionLogo";
 import CallToAction from "@/components/ui/CallToAction";
 
+import img5 from "../../../public/img/blur/Usmile-fotografia-5.jpg";
+import img6 from "../../../public/img/blur/Usmile-fotografia-6.jpg";
+
 const aboutPage = () => {
   return (
     <>
@@ -49,7 +52,7 @@ const aboutPage = () => {
       <SectionInfoLarge
         text="Somos un equipo de profesionales que tienen por objetivo, brindarte los mejores servicios odontológicos de la más alta calidad, materiales, ubicación e instalaciones de vanguardia."
         imagePath="/img/Usmile-fotografia-5.jpg"
-        imageBlurPath="/img/blur/Usmile-fotografia-5.png"
+        imageBlurPath={img5}
       />
       <SectionAdvantages />
       <SectionLogo text="En U Smile, tenemos un compromiso contigo, ofrecerte un tratamiento con el que te sientas cómodo y diseñado perfectamente a la medida para ti" />
@@ -57,7 +60,7 @@ const aboutPage = () => {
         bgColor="white"
         text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"
         imagePath="/img/Usmile-fotografia-6.jpg"
-        imageBlurPath="/img/blur/Usmile-fotografia-6.png"
+        imageBlurPath={img6}
       />
     </>
   );
