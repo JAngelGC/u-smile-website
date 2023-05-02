@@ -18,7 +18,7 @@ const SectionInfoLarge: React.FC<{
           style={{ objectFit: "cover" }}
           alt=""
           blurDataURL={props.imageBlurPath.src}
-          placeholder="blur"
+          // placeholder="blur"
         />
       </div>
       <p>{props.text}</p>

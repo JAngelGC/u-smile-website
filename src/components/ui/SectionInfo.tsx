@@ -24,7 +24,7 @@ const SectionInfo: React.FC<{
           style={{ objectFit: "cover" }}
           alt=""
           blurDataURL={props.imageBlurPath.src}
-          placeholder="blur"
+          // placeholder="blur"
         />
       </div>
 
