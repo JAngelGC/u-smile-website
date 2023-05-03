@@ -1,14 +1,17 @@
 import Image from "next/image";
 import classes from "./Footer.module.css";
 
+import imgLogoShort from "../../../public/img/Usmile-logo-short.png";
+
 const Footer: React.FC<{}> = () => {
   return (
     <footer className={classes["footer"]}>
       <div className={`${classes["box-logo"]} ${classes["box"]}`}>
         <Image
-          src={"/img/Usmile-logo-short.png"}
+          src={imgLogoShort}
           fill
           style={{ objectFit: "contain" }}
+          placeholder="blur"
           alt=""
         />
       </div>

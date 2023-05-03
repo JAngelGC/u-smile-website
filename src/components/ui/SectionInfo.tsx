@@ -7,8 +7,7 @@ const SectionInfo: React.FC<{
   textSide: string;
   title: string;
   text: string;
-  imagePath: string;
-  imageBlurPath: StaticImageData;
+  imageObj: StaticImageData;
 }> = (props) => {
   const classOrientation: string =
     props.textSide === "left" ? "leftText" : "rightText";
@@ -19,12 +18,11 @@ const SectionInfo: React.FC<{
     >
       <div className={classes["box-img"]}>
         <Image
-          src={props.imagePath}
+          src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL={props.imageBlurPath.src}
-          // placeholder="blur"
+          placeholder="blur"
         />
       </div>
 

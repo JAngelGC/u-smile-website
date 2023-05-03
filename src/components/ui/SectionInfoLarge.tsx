@@ -5,20 +5,18 @@ import classes from "./SectionInfoLarge.module.css";
 const SectionInfoLarge: React.FC<{
   title?: string;
   text: string;
-  imagePath: string;
-  imageBlurPath: StaticImageData;
+  imageObj: StaticImageData;
 }> = (props) => {
   return (
     <section className={classes["section-info"]}>
       <h2>{props.title}</h2>
       <div className={classes["box-img"]}>
         <Image
-          src={props.imagePath}
+          src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL={props.imageBlurPath.src}
-          // placeholder="blur"
+          placeholder="blur"
         />
       </div>
       <p>{props.text}</p>
