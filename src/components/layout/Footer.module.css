@@ -57,7 +57,7 @@
   padding-top: 0.75rem;
   display: flex;
   /* justify-content: space-evenly; */
-  justify-content: start;
+  justify-content: flex-start;
   gap: 15%;
 }
 
