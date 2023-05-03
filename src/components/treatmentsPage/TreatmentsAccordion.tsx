@@ -2,6 +2,8 @@ import { useState } from "react";
 import TreatmentItem from "./TreatmentItem";
 import classes from "./TreatmentsAccordion.module.css";
 
+import img4 from "../../../public/img/Usmile-fotografia-4.png";
+
 const TreatmentsAccordion: React.FC<{}> = () => {
   const [treatment, setTreatment] = useState<string>("odontologia");
   console.log("treatment: ", treatment);
@@ -59,26 +61,31 @@ const TreatmentsAccordion: React.FC<{}> = () => {
         </p>
       </div>
       <TreatmentItem
+        imageObj={img4}
         isActive={treatmentSelected("odontologia")}
         title="Odontología"
         text="Ofrecemos una amplia variedad de servicios de odontología general, que incluyen limpiezas dentales, exámenes regulares, tratamientos de caries y más"
       />
       <TreatmentItem
+        imageObj={img4}
         isActive={treatmentSelected("ortodoncia")}
         title="Ortodoncia"
         text="Ofrecemos una amplia variedad de servicios de odontología general, que incluyen limpiezas dentales, exámenes regulares, tratamientos de caries y más"
       />
       <TreatmentItem
+        imageObj={img4}
         isActive={treatmentSelected("implantes")}
         title="Implantes dentales"
         text="Ofrecemos una amplia variedad de servicios de odontología general, que incluyen limpiezas dentales, exámenes regulares, tratamientos de caries y más"
       />
       <TreatmentItem
+        imageObj={img4}
         isActive={treatmentSelected("blanqueamiento")}
         title="Blanqueamiento dental"
         text="Ofrecemos una amplia variedad de servicios de odontología general, que incluyen limpiezas dentales, exámenes regulares, tratamientos de caries y más"
       />
       <TreatmentItem
+        imageObj={img4}
         isActive={treatmentSelected("estetica")}
         title="Estética dental"
         text="Ofrecemos una amplia variedad de servicios de odontología general, que incluyen limpiezas dentales, exámenes regulares, tratamientos de caries y más"

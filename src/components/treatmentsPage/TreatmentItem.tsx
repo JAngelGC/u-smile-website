@@ -1,12 +1,12 @@
 import classes from "./TreatmentItem.module.css";
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 
 const TreatmentItem: React.FC<{
   isActive: boolean;
   title: string;
   text: string;
-  imagePath?: string;
-  imageBlurPath?: string;
+  imageObj: StaticImageData;
 }> = (props) => {
   return (
     <div
@@ -16,11 +16,10 @@ const TreatmentItem: React.FC<{
     >
       <div className={classes["box-img"]}>
         <Image
-          src={"/img/Kid-smiling.png"}
+          src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL={"/img/Kid-smiling.png"}
           placeholder="blur"
         />
       </div>

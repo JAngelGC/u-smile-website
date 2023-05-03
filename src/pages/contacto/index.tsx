@@ -4,7 +4,7 @@ import ContactInfo from "@/components/contactPage/ContactInfo";
 import LocationMap from "@/components/contactPage/LocationMap";
 import CallToAction from "@/components/ui/CallToAction";
 
-import img15 from "../../../public/img/blur/Usmile-fotografia-15.jpg";
+import img15 from "../../../public/img/Usmile-fotografia-15.jpg";
 
 const ContactPage = () => {
   return (
@@ -52,8 +52,7 @@ const ContactPage = () => {
       <CallToAction
         bgColor="white"
         text="¡Estamos ansiosos de verte en nuestra clínica!"
-        imagePath="/img/Usmile-fotografia-15.jpg"
-        imageBlurPath={img15}
+        imageObj={img15}
       />
     </>
   );

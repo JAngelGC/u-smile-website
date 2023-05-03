@@ -5,6 +5,8 @@ import classes from "./MainNavigation.module.css";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
+import imgLogo from "../../../public/img/Usmile-logo.png";
+
 const MainNavigation = () => {
   const router = useRouter();
 
@@ -33,9 +35,10 @@ const MainNavigation = () => {
       <div className={classes["box-img-logo"]}>
         <Link href="/">
           <Image
-            src={"/img/Usmile-logo.png"}
+            src={imgLogo}
             fill
             style={{ objectFit: "contain" }}
+            placeholder="blur"
             alt=""
           />
         </Link>
@@ -47,9 +50,10 @@ const MainNavigation = () => {
             <div className={classes["link-logo"]}>
               <Link href="/">
                 <Image
-                  src={"/img/Usmile-logo.png"}
+                  src={imgLogo}
                   fill
                   style={{ objectFit: "contain" }}
+                  placeholder="blur"
                   alt=""
                 />
               </Link>

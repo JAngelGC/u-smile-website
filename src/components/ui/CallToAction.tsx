@@ -6,8 +6,7 @@ import classes from "./CallToAction.module.css";
 const CallToAction: React.FC<{
   text: String;
   bgColor: string;
-  imagePath: string;
-  imageBlurPath: StaticImageData;
+  imageObj: StaticImageData;
 }> = (props) => {
   const bgClass: string =
     props.bgColor === "green" ? "box-text--green" : "box-text--white";
@@ -21,12 +20,11 @@ const CallToAction: React.FC<{
 
       <div className={classes["box-img"]}>
         <Image
-          src={props.imagePath}
+          src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL={props.imageBlurPath.src}
-          // placeholder="blur"
+          placeholder="blur"
         />
       </div>
     </section>
