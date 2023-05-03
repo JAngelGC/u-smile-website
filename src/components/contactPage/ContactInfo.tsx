@@ -1,16 +1,17 @@
 import Image from "next/image";
 import classes from "./ContactInfo.module.css";
 
+import img14 from "../../../public/img/Usmile-fotografia-14.jpg";
+
 const ContactInfo: React.FC<{}> = () => {
   return (
     <section className={classes["section-info"]}>
       <div className={classes["box-img"]}>
         <Image
-          src={"/img/Usmile-fotografia-14.jpg"}
+          src={img14}
           fill
           style={{ objectFit: "cover" }}
           alt=""
-          blurDataURL="/img/blur/Usmile-fotografia-14.jpg"
           placeholder="blur"
         />
       </div>

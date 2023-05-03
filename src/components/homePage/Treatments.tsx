@@ -1,6 +1,12 @@
 import Image from "next/image";
 import classes from "./Treatments.module.css";
 
+import iconAlineacion from "../../../public/icons/Usmile-alineacion.png";
+import iconReconstruccion from "../../../public/icons/Usmile-reconstruccion.png";
+import iconImplante from "../../../public/icons/Usmile-implantes.png";
+import iconBlanqueamiento from "../../../public/icons/Usmile-blanqueamiento.png";
+import iconEstetica from "../../../public/icons/Usmile-estetica.png";
+
 const Treatments = () => {
   return (
     <section className={classes["section-treatments"]}>
@@ -12,9 +18,10 @@ const Treatments = () => {
       >
         <div className={classes["box-img-icon"]}>
           <Image
-            src={"/icons/Usmile-alineacion.png"}
+            src={iconAlineacion}
             fill
             style={{ objectFit: "contain" }}
+            placeholder="blur"
             alt=""
           />
         </div>
@@ -26,9 +33,10 @@ const Treatments = () => {
       >
         <div className={classes["box-img-icon"]}>
           <Image
-            src={"/icons/Usmile-reconstruccion.png"}
+            src={iconReconstruccion}
             fill
             style={{ objectFit: "contain" }}
+            placeholder="blur"
             alt=""
           />
         </div>
@@ -40,9 +48,10 @@ const Treatments = () => {
       >
         <div className={classes["box-img-icon"]}>
           <Image
-            src={"/icons/Usmile-implantes.png"}
+            src={iconImplante}
             fill
             style={{ objectFit: "contain" }}
+            placeholder="blur"
             alt=""
           />
         </div>
@@ -54,9 +63,10 @@ const Treatments = () => {
       >
         <div className={classes["box-img-icon"]}>
           <Image
-            src={"/icons/Usmile-blanqueamiento.png"}
+            src={iconBlanqueamiento}
             fill
             style={{ objectFit: "contain" }}
+            placeholder="blur"
             alt=""
           />
         </div>
@@ -68,9 +78,10 @@ const Treatments = () => {
       >
         <div className={classes["box-img-icon"]}>
           <Image
-            src={"/icons/Usmile-estetica.png"}
+            src={iconEstetica}
             fill
             style={{ objectFit: "contain" }}
+            placeholder="blur"
             alt=""
           />
         </div>

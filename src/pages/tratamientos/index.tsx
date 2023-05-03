@@ -4,7 +4,7 @@ import TreatmentsIntro from "@/components/treatmentsPage/TreatmentsIntro";
 import TreatmentsAccordion from "@/components/treatmentsPage/TreatmentsAccordion";
 import CallToAction from "@/components/ui/CallToAction";
 
-import img7 from "../../../public/img/blur/Usmile-fotografia-7.jpg";
+import img7 from "../../../public/img/Usmile-fotografia-7.jpg";
 
 const TreatmentsPage = () => {
   return (

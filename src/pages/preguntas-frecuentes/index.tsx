@@ -5,7 +5,7 @@ import FaqAccordion from "@/components/faqPage/FaqAccordion";
 import AdvantagesAccordion from "@/components/faqPage/AdvantagesAccordion";
 import CallToAction from "@/components/ui/CallToAction";
 
-import img13 from "../../../public/img/blur/Usmile-fotografia-13.jpg";
+import img13 from "../../../public/img/Usmile-fotografia-13.jpg";
 
 const FaqPage = () => {
   return (

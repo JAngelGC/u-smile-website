@@ -1,6 +1,5 @@
 import Button from "../ui/Button";
 import classes from "./Header.module.css";
-import Image from "next/image";
 
 import React from "react";
 import { Box, IconButton, useBreakpointValue } from "@chakra-ui/react";

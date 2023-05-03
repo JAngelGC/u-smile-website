@@ -139,7 +139,7 @@
 @media (max-width: 34em) {
   .footer {
     padding: 2rem 1rem;
-    height: 20vh;
+    height: 22vh;
     justify-content: center;
 
     flex-wrap: wrap;
