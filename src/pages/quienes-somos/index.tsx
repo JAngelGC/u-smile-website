@@ -54,7 +54,7 @@ const aboutPage = () => {
         imageObj={img5}
       />
       <SectionAdvantages />
-      <SectionLogo text="En U Smile, tenemos un compromiso contigo, ofrecerte un tratamiento con el que te sientas cómodo y diseñado perfectamente a la medida para ti" />
+      <SectionLogo text="En U Smile, tenemos un compromiso contigo, ofrecerte un tratamiento con el que te sientas cómodo y diseñado perfectamente a la medida para ti." />
       <CallToAction
         bgColor="white"
         text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"

@@ -1,7 +1,10 @@
 import Advantage from "./Advantage";
 import classes from "./SectionAdvantages.module.css";
 
-import imgIcon from "../../../public/icons/white-icon.png";
+import imgIcon1 from "../../../public/icons/Usmile-ventaja-1.png";
+import imgIcon2 from "../../../public/icons/Usmile-ventaja-2.png";
+import imgIcon3 from "../../../public/icons/Usmile-ventaja-3.png";
+import imgIcon4 from "../../../public/icons/Usmile-ventaja-4.png";
 
 const SectionAdvantages: React.FC<{}> = () => {
   return (
@@ -9,20 +12,20 @@ const SectionAdvantages: React.FC<{}> = () => {
       <h2>Lo que nos diferencia</h2>
       <div className={classes["box-advantages"]}>
         <Advantage
-          imageObj={imgIcon}
+          imageObj={imgIcon1}
           text="Nos esforzamos por mantenernos siempre actualizados, utilizando la mejor tecnología y las técnicas más vanguardistas."
         />
         <Advantage
-          imageObj={imgIcon}
+          imageObj={imgIcon2}
           text="Nos enorgullece ofrecer el sistema Invisalign a nuestros pacientes como una opción de tratamiento de ortodoncia discreta y cómoda y de la más alta calidad."
         />
         <Advantage
-          imageObj={imgIcon}
-          text="Nos enorgullece ofrecer el sistema Invisalign a nuestros pacientes como una opción de tratamiento de ortodoncia discreta y cómoda y de la más alta calidad."
+          imageObj={imgIcon3}
+          text="Nos enfocamos en brindarte una atención personalizada. Nuestro equipo se toma el tiempo de conocer a cada paciente y sus necesidades específicas."
         />
         <Advantage
-          imageObj={imgIcon}
-          text="Nos esforzamos por mantenernos siempre actualizados, utilizando la mejor tecnología y las técnicas más vanguardistas."
+          imageObj={imgIcon4}
+          text="Nuestra clínica cuenta con tecnología de última generación para asegurar un diagnóstico y tratamiento precisos."
         />
       </div>
     </section>
