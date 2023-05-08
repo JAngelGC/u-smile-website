@@ -12,7 +12,8 @@ const Footer: React.FC<{}> = () => {
           fill
           style={{ objectFit: "contain" }}
           placeholder="blur"
-          alt=""
+          alt="Usmile Icono Logo Corto"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
 

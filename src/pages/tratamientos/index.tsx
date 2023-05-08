@@ -52,6 +52,7 @@ const TreatmentsPage = () => {
         bgColor="green"
         text="Estamos ansiosos por ayudarte a lograr una sonrisa saludable y hermosa"
         imageObj={img7}
+        altText={"Usmile Fotografia Sonrisa Saludable y Hermosa"}
       />
     </>
   );

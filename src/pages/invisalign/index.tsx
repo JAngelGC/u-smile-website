@@ -55,29 +55,34 @@ const InvisalignPage = () => {
         title="La mejor tecnología en Puebla"
         text="Uno de los tratamientos más populares en nuestra clínica es el sistema Invisalign, que ofrece una alternativa discreta y cómoda a los brackets y alambres tradicionales."
         imageObj={img11}
+        altText={"Usmile Fotografia Invisalign"}
       />
       <SectionInfo
         textSide="right"
         title="Personalización"
         text="Nuestro equipo de ortodoncistas altamente capacitados y experimentados trabaja en estrecha colaboración con cada paciente para diseñar un plan de tratamiento personalizado que aborde sus necesidades únicas."
         imageObj={img9}
+        altText={"Usmile Fotografia Personalizacion"}
       />
       <SectionInfo
         textSide="left"
         title="Comodidad"
         text="En U Smile, creemos que la comodidad del paciente es una parte integral de cualquier tratamiento de ortodoncia exitoso. Los alineadores Invisalign son removibles, lo que permite una mayor comodidad y una higiene bucal más fácil durante el tratamiento"
         imageObj={img10}
+        altText={"Usmile Fotografia Comodidad"}
       />
       <SectionInfo
         textSide="right"
         title="Apariencia"
         text="Debido a que los alineadores son transparentes, los pacientes pueden continuar con su vida diaria sin tener que preocuparse por la apariencia de sus brackets y alambres."
         imageObj={img8}
+        altText={"Usmile Fotografia Apariencia"}
       />
       <CallToAction
         bgColor="white"
         text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"
         imageObj={img12}
+        altText={"Usmile Fotografia Ayuda Profesional"}
       />
     </>
   );

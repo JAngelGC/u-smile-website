@@ -8,6 +8,7 @@
   flex-direction: column;
 
   position: relative;
+  /* background-color: yellowgreen; */
 }
 
 .box-info {
@@ -29,11 +30,13 @@
   width: 45%;
 
   top: 25%;
+
+  margin-bottom: 3rem;
 }
 
-.btn {
+/* .btn {
   margin-top: 3rem;
-}
+} */
 
 .slider {
   height: 100%;
@@ -44,7 +47,7 @@
   position: relative;
   background-position: right;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 /**************************/

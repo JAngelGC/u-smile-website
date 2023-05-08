@@ -5,6 +5,7 @@ import classes from "./CallToAction.module.css";
 
 const CallToAction: React.FC<{
   text: String;
+  altText: string;
   bgColor: string;
   imageObj: StaticImageData;
 }> = (props) => {
@@ -23,8 +24,9 @@ const CallToAction: React.FC<{
           src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
-          alt=""
+          alt={props.altText}
           placeholder="blur"
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 70vw, 45vw"
         />
       </div>
     </section>

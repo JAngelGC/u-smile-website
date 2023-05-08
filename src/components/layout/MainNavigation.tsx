@@ -39,7 +39,8 @@ const MainNavigation = () => {
             fill
             style={{ objectFit: "contain" }}
             placeholder="blur"
-            alt=""
+            alt="Usmile Puebla Logo"
+            sizes="(max-width: 640px) 25vw, (max-width: 768px) 20vw, 10vw"
           />
         </Link>
       </div>
@@ -54,7 +55,8 @@ const MainNavigation = () => {
                   fill
                   style={{ objectFit: "contain" }}
                   placeholder="blur"
-                  alt=""
+                  alt="Usmile Puebla Logo Movil"
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 30vw, 10vw"
                 />
               </Link>
             </div>

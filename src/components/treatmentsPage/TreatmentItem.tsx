@@ -5,7 +5,9 @@ import { StaticImageData } from "next/image";
 const TreatmentItem: React.FC<{
   isActive: boolean;
   title: string;
-  text: string;
+  text1: string;
+  text2: string;
+  altText: string;
   imageObj: StaticImageData;
 }> = (props) => {
   return (
@@ -19,13 +21,15 @@ const TreatmentItem: React.FC<{
           src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
-          alt=""
+          alt={props.altText}
           placeholder="blur"
+          sizes="(max-width: 640px) 90vw, (max-width: 768px) 60vw, 70vw"
         />
       </div>
       <div className={classes["box-text"]}>
         <h3>{props.title}</h3>
-        <p>{props.text}</p>
+        <p>{props.text1}</p>
+        <p className={classes["text2"]}>{props.text2}</p>
       </div>
     </div>
   );

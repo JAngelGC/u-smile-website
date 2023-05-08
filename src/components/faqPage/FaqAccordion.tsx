@@ -19,32 +19,20 @@ const FaqAccordion = () => {
       className={classes["accordion"]}
     >
       <MyAccordionItem
-        title="¿Con qué frecuencia debo visitar al dentista?"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
+        title="¿Qué es Invisalign?"
+        text="Es un tratamiento ortodóntico que utiliza alineadores transparentes y removibles para enderezar los dientes."
       />
       <MyAccordionItem
-        title="¿Con qué frecuencia debo visitar al dentista?"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
+        title="¿Cómo funciona Invisalign?"
+        text="Invisalign utiliza alineadores transparentes personalizados para mover los dientes gradualmente a su posición correcta."
       />
       <MyAccordionItem
-        title="¿Con qué frecuencia debo visitar al dentista?"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
+        title="¿Qué tan efectivo es Invisalign?"
+        text="Invisalign es un tratamiento ortodóntico altamente efectivo para corregir una amplia variedad de problemas dentales."
       />
       <MyAccordionItem
-        title="¿Con qué frecuencia debo visitar al dentista?"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat."
+        title="¿Cuánto tiempo dura el tratamiento con Invisalign?"
+        text="El tiempo de tratamiento depende de la complejidad del caso, pero generalmente dura entre 12 y 18 meses."
       />
     </Accordion>
   );
