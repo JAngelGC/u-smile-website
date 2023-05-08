@@ -1,6 +1,8 @@
 .box-content {
   display: none;
   padding: 2rem 0;
+  /* background-color: yellowgreen; */
+  min-height: 72vh;
 }
 
 .box-content.active {
@@ -32,6 +34,10 @@
 
 .box-content .box-text p {
   font-size: var(--fs-mid-text);
+}
+
+.box-content .box-text .text2 {
+  margin-top: 1rem;
 }
 
 /**************************/
