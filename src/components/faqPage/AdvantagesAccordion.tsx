@@ -23,32 +23,20 @@ const AdvantagesAccordion = () => {
         className={classes["accordion"]}
       >
         <MyAccordionItem
-          title="¿Con qué frecuencia debo visitar al dentista?"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat."
+          title="¿Cuáles son las ventajas de Invisalign?"
+          text="Las ventajas de Invisalign incluyen su estética, comodidad, removibilidad y su eficacia en el tratamiento de problemas dentales."
         />
         <MyAccordionItem
-          title="¿Con qué frecuencia debo visitar al dentista?"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat."
+          title="¿Es mejor Invisalign que los brackets tradicionales?"
+          text="Invisalign es mucho más cómodo y estético que los brackets tradicionales, ya que no utiliza alambres ni brackets metálicos."
         />
         <MyAccordionItem
-          title="¿Con qué frecuencia debo visitar al dentista?"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat."
+          title="¿Cuál es el proceso de tratamiento con Invisalign?"
+          text="El proceso es muy simple, incluye una consulta inicial con un ortodoncista, la toma de impresiones y fotografías de los dientes, la creación de los alineadores personalizados y citas regulares para cambiar los alineadores."
         />
         <MyAccordionItem
-          title="¿Con qué frecuencia debo visitar al dentista?"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat."
+          title="¿Invisalign duele?"
+          text="Es normal sentir algo de presión en los dientes al principio del tratamiento, pero la mayoría de los pacientes informan que no sienten dolor."
         />
       </Accordion>
     </>
