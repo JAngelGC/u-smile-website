@@ -23,6 +23,7 @@ const TreatmentItem: React.FC<{
           style={{ objectFit: "cover" }}
           alt={props.altText}
           placeholder="blur"
+          sizes="(max-width: 640px) 90vw, (max-width: 768px) 60vw, 70vw"
         />
       </div>
       <div className={classes["box-text"]}>

@@ -13,6 +13,7 @@ const ContactInfo: React.FC<{}> = () => {
           style={{ objectFit: "cover" }}
           alt="Usmile Fotografia Clinica Contacto"
           placeholder="blur"
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 45vw, 50vw"
         />
       </div>
 

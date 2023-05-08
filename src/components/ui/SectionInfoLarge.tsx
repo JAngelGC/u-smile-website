@@ -18,6 +18,7 @@ const SectionInfoLarge: React.FC<{
           style={{ objectFit: "cover" }}
           alt={props.altText}
           placeholder="blur"
+          sizes="(max-width: 640px) 90vw, (max-width: 768px) 70vw, 55vw"
         />
       </div>
       <p>{props.text}</p>

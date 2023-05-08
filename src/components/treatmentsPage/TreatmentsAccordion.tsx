@@ -10,7 +10,6 @@ import img5 from "../../../public/img/tratamientos/Usmile-tratamiento-estetica.j
 
 const TreatmentsAccordion: React.FC<{}> = () => {
   const [treatment, setTreatment] = useState<string>("odontologia");
-  console.log("treatment: ", treatment);
 
   const treatmentSelected = (treatmentState: string): boolean => {
     if (treatment === treatmentState) {

@@ -24,6 +24,7 @@ const SectionInfo: React.FC<{
           style={{ objectFit: "cover" }}
           alt={props.altText}
           placeholder="blur"
+          sizes="(max-width: 640px) 100vw, (max-width: 768px) 70vw, 50vw"
         />
       </div>
 
