@@ -22,7 +22,7 @@ const Treatments = () => {
             fill
             style={{ objectFit: "contain" }}
             placeholder="blur"
-            alt=""
+            alt={"Usmile Icono Alineacion"}
           />
         </div>
         <p className={classes["title-treatment"]}>Alineación</p>
@@ -37,7 +37,7 @@ const Treatments = () => {
             fill
             style={{ objectFit: "contain" }}
             placeholder="blur"
-            alt=""
+            alt={"Usmile Icono Reconstruccion"}
           />
         </div>
         <p className={classes["title-treatment"]}>Recontrucción</p>
@@ -52,7 +52,7 @@ const Treatments = () => {
             fill
             style={{ objectFit: "contain" }}
             placeholder="blur"
-            alt=""
+            alt={"Usmile Icono Implantes Dentales"}
           />
         </div>
         <p className={classes["title-treatment"]}>Implantes</p>
@@ -67,7 +67,7 @@ const Treatments = () => {
             fill
             style={{ objectFit: "contain" }}
             placeholder="blur"
-            alt=""
+            alt={"Usmile Icono Blanqueamiento Dental"}
           />
         </div>
         <p className={classes["title-treatment"]}>Blanqueamiento</p>
@@ -82,7 +82,7 @@ const Treatments = () => {
             fill
             style={{ objectFit: "contain" }}
             placeholder="blur"
-            alt=""
+            alt={"Usmile Icono Estetica Dental"}
           />
         </div>
         <p className={classes["title-treatment"]}>Estética dental</p>

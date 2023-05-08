@@ -7,6 +7,7 @@ const TreatmentItem: React.FC<{
   title: string;
   text1: string;
   text2: string;
+  altText: string;
   imageObj: StaticImageData;
 }> = (props) => {
   return (
@@ -20,7 +21,7 @@ const TreatmentItem: React.FC<{
           src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
-          alt=""
+          alt={props.altText}
           placeholder="blur"
         />
       </div>

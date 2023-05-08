@@ -52,6 +52,7 @@ const aboutPage = () => {
       <SectionInfoLarge
         text="Somos un equipo de profesionales que tienen por objetivo, brindarte los mejores servicios odontológicos de la más alta calidad, materiales, ubicación e instalaciones de vanguardia."
         imageObj={img5}
+        altText={"Usmile Fotografia Equipo De Profesionales"}
       />
       <SectionAdvantages />
       <SectionLogo text="En U Smile, tenemos un compromiso contigo, ofrecerte un tratamiento con el que te sientas cómodo y diseñado perfectamente a la medida para ti." />
@@ -59,6 +60,7 @@ const aboutPage = () => {
         bgColor="white"
         text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"
         imageObj={img6}
+        altText={"Usmile Fotografia Sonrisa Saludable"}
       />
     </>
   );

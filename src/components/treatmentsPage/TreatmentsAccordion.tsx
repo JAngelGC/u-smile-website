@@ -70,6 +70,7 @@ const TreatmentsAccordion: React.FC<{}> = () => {
         title="Odontología"
         text1="En Usmile, ofrecemos un servicio de odontología completo y de alta calidad para pacientes de todas las edades. Contamos con un equipo de profesionales altamente capacitado y con amplia experiencia en diferentes áreas de la odontología, y utilizamos tecnología de última generación para asegurar un diagnóstico y tratamiento precisos."
         text2="Ofrecemos una amplia variedad de servicios odontológicos, desde limpiezas dentales hasta cirugías orales complejas, en un ambiente cálido y acogedor. Si estás buscando un servicio de odontología confiable y de alta calidad en Puebla, ¡ven a visitarnos en U Smile!"
+        altText="Usmile Fotografia Odontologia"
       />
       <TreatmentItem
         imageObj={img2}
@@ -77,6 +78,7 @@ const TreatmentsAccordion: React.FC<{}> = () => {
         title="Ortodoncia"
         text1="En Usmile, ofrecemos un servicio de ortodoncia especializado y personalizado para cada paciente. Nuestros especialistas en ortodoncia tienen amplia experiencia en el diagnóstico y tratamiento de problemas de maloclusión dental, mordida cruzada, apiñamiento dental, entre otros."
         text2="Utilizamos tecnología de última generación, como la ortodoncia invisible Invisalign, para garantizar un tratamiento preciso y efectivo. Además, nos enfocamos en ofrecer una atención personalizada a cada paciente, con un trato amable y cercano que les permita sentirse cómodos y confiados en cada visita. Si estás buscando un tratamiento de ortodoncia efectivo y personalizado, ¡Ven a visitarnos en U Smile!"
+        altText="Usmile Fotografia Ortodoncia"
       />
       <TreatmentItem
         imageObj={img3}
@@ -84,6 +86,7 @@ const TreatmentsAccordion: React.FC<{}> = () => {
         title="Implantes dentales"
         text1="En Usmile, ofrecemos un servicio de implantes dentales de alta calidad y personalizado para cada paciente. Nuestros especialistas en implantología dental tienen amplia experiencia en el diagnóstico y tratamiento de problemas de pérdida de piezas dentales, y utilizamos tecnología de última generación para garantizar un tratamiento preciso y efectivo."
         text2="Ofrecemos una amplia variedad de soluciones de implantes dentales, desde implantes dentales individuales hasta prótesis completas fijas o removibles, según las necesidades de cada paciente."
+        altText="Usmile Fotografia Implantes Dentales"
       />
       <TreatmentItem
         imageObj={img4}
@@ -91,6 +94,7 @@ const TreatmentsAccordion: React.FC<{}> = () => {
         title="Blanqueamiento dental"
         text1="Sin duda, creemos que una sonrisa blanca y radiante es una de las mejores formas de lucir una buena apariencia y confianza en uno mismo. Por eso, ofrecemos un servicio de blanqueamiento dental seguro, efectivo y con resultados rápidos y duraderos."
         text2="Utilizamos tecnología de última generación para asegurar un blanqueamiento preciso y sin dolor, y nuestros profesionales altamente capacitados tienen amplia experiencia en el uso de los productos de blanqueamiento dental más efectivos del mercado."
+        altText="Usmile Fotografia Blanqueamiento Dental"
       />
       <TreatmentItem
         imageObj={img5}
@@ -98,6 +102,7 @@ const TreatmentsAccordion: React.FC<{}> = () => {
         title="Estética dental"
         text1="En Usmile, creemos que una sonrisa hermosa es una de las mejores formas de mejorar tu autoestima y confianza en ti mismo. Por eso, ofrecemos una amplia variedad de servicios de estética dental que te ayudarán a lucir la sonrisa de tus sueños."
         text2="Te garantizamos que saldrás de aquí con una sonrisa deslumbrante que querrás mostrar a todo el mundo."
+        altText="Usmile Fotografia Estetica Dental"
       />
     </section>
   );

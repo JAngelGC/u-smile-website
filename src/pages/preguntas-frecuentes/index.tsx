@@ -54,6 +54,7 @@ const FaqPage = () => {
         bgColor="green"
         text="Descubre cómo podemos ayudarte a lograr una sonrisa saludable y hermosa"
         imageObj={img13}
+        altText={"Usmile Fotografia Preguntas Frecuentes"}
       />
     </>
   );

@@ -59,18 +59,21 @@ export default function Home() {
           title="Sonríe con confianza"
           text="En USmile nos especializamos en ofrecer tratamientos de ortodoncia modernos y de alta calidad a través de alineadores invisibles en un ambiente amigable y acogedor."
           imageObj={img1}
+          altText={"Usmile Fotografia Sonrie Con Confianza"}
         />
         <SectionInfo
           textSide="left"
           title="Nuestro equipo"
           text="Contamos con dentistas altamente capacitados y experimentados están comprometidos con la excelencia en el cuidado dental y la atención al paciente."
           imageObj={img2}
+          altText={"Usmile Fotografia Nuestro Equipo"}
         />
         <SectionInfo
           textSide="right"
           title="Cada paciente"
           text="Trabajamos juntos para desarrollar un plan de tratamiento personalizado que satisfaga sus objetivos de tu salud bucal"
           imageObj={img3}
+          altText={"Usmile Fotografia Paciente"}
         />
 
         <Treatments />
@@ -79,6 +82,7 @@ export default function Home() {
           bgColor="green"
           text="Comienza tu viaje hacia una sonrisa hermosa y saludable"
           imageObj={img4}
+          altText={"Usmile Fotografia Sonrisa Hermosa"}
         />
       </section>
     </>

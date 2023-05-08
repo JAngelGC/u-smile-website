@@ -12,7 +12,7 @@ const Footer: React.FC<{}> = () => {
           fill
           style={{ objectFit: "contain" }}
           placeholder="blur"
-          alt=""
+          alt="Usmile Icono Logo Corto"
         />
       </div>
 

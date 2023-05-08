@@ -11,7 +11,7 @@ const ContactInfo: React.FC<{}> = () => {
           src={img14}
           fill
           style={{ objectFit: "cover" }}
-          alt=""
+          alt="Usmile Fotografia Clinica Contacto"
           placeholder="blur"
         />
       </div>

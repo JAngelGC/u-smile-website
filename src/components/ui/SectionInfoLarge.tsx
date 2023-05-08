@@ -5,6 +5,7 @@ import classes from "./SectionInfoLarge.module.css";
 const SectionInfoLarge: React.FC<{
   title?: string;
   text: string;
+  altText: string;
   imageObj: StaticImageData;
 }> = (props) => {
   return (
@@ -15,7 +16,7 @@ const SectionInfoLarge: React.FC<{
           src={props.imageObj}
           fill
           style={{ objectFit: "cover" }}
-          alt=""
+          alt={props.altText}
           placeholder="blur"
         />
       </div>

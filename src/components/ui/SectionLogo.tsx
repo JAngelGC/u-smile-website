@@ -12,7 +12,7 @@ const SectionLogo: React.FC<{ text?: string }> = (props) => {
           fill
           style={{ objectFit: "contain" }}
           placeholder="blur"
-          alt=""
+          alt="Usmile Puebla Logo"
         />
       </div>
       <p className={classes["text"]}>{props.text}</p>

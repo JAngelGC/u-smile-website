@@ -53,6 +53,7 @@ const ContactPage = () => {
         bgColor="white"
         text="¡Estamos ansiosos de verte en nuestra clínica!"
         imageObj={img15}
+        altText={"Usmile Fotografia Clinica"}
       />
     </>
   );
