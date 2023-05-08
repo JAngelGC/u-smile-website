@@ -31,10 +31,9 @@ const Header = () => {
 
   // These are the images used in the slide
   const cards = [
-    "/img/Usmile-fotografia-16.png",
-    "/img/Usmile-fotografia-1.png",
-    "/img/Usmile-fotografia-2.png",
-    "/img/Usmile-fotografia-4.png",
+    "/img/Usmile-fotografia-17.jpg",
+
+    "/img/Usmile-fotografia-18.jpg",
   ];
 
   return (

@@ -1,8 +1,11 @@
 .box-btn {
   text-decoration: none;
+  /* background-color: yellowgreen; */
+  max-width: 20rem;
 }
 
 .btn {
+  width: 20rem;
   display: block;
   font-size: var(--fs-big-text);
   padding: 1.5rem 2.25rem;
